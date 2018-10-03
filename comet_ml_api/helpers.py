@@ -35,7 +35,7 @@ def get_request(end_point, params, version, api_key):
     try:
         response.raise_for_status()
     except requests.exceptions.HTTPError as e:
-        print "Error: " + str(e)
+        print("Error: " + str(e))
         return "Error: {}".format(e)
 
     return response.json()

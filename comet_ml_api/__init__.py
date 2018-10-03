@@ -1,4 +1,4 @@
-import helpers
+from comet_ml_api import helpers
 
 class CometMlApi:
     def __init__(self, api_key, version = helpers.DEFAULT_VERSION):
