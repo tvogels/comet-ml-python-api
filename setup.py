@@ -10,4 +10,5 @@ setup(name='comet_ml_api',
     packages=['comet_ml_api'],
     zip_safe=False,
     test_suite='nose.collector',
+    install_requires=['pandas'],
     tests_require=['nose'])
